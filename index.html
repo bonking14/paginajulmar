@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julmar S.A.S. - Ingeniería, Mantenimiento y Suministros Marítimos e Industriales</title>
+  <meta name="description"
+    content="Soluciones integrales de mantenimiento de motores diésel marinos, suministros industriales, rectificación y servicios técnicos de alta precisión en Cartagena, Colombia.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- 2. Glass Header Navigation -->
+  <header class="header-glass">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Julmar S.A.S. Inicio">
+        <img src="assets/images/logo-color.png" alt="Julmar S.A.S. Logo">
+
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Inicio</a></li>
+          <li><a href="pages/quienes_somos.html" class="nav-link">¿Quiénes Somos?</a></li>
+          <li><a href="pages/servicios_suministros.html" class="nav-link">Servicios y Suministros</a></li>
+          <li><a href="pages/instalaciones.html" class="nav-link">Instalaciones</a></li>
+          <li><a href="pages/contactanos.html" class="nav-link">Contáctanos</a></li>
+          <li><a href="https://wa.me/573243259535?text=Hola,%20quisiera%20solicitar%20una%20cotización" target="_blank"
+              rel="noopener noreferrer" class="btn-quote-nav">Cotizar Ahora</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Abrir menú móvil">☰</button>
+    </div>
+  </header>
+
+  <!-- 3. Dynamic Hero Section with Background Video & Glassmorphism Card -->
+  <section class="hero-section">
+    <video id="hero-video" class="hero-video-bg" autoplay loop muted playsinline>
+      <source src="assets/video/video presentacion defi.mp4" type="video/mp4">
+      Tu navegador no soporta reproducción de video.
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-corner-box">
+        <h1 class="hero-corner-title">ESPECIALISTAS EN MOTORES DIÉSEL DE ALTO DESEMPEÑO</h1>
+        <p class="hero-corner-subtext">Tu motor en manos expertas. Soluciones profesionales para proyectos que no se
+          detienen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Stats Counter Section -->
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number" data-target="8" data-prefix="+" data-suffix=" Años">+8 Años</div>
+        <div class="stat-label">Trayectoria</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="300" data-prefix="+" data-suffix="">+300</div>
+        <div class="stat-label">Proyectos Ejecutados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="25" data-prefix="+" data-suffix=" Años">+25 Años</div>
+        <div class="stat-label">Experiencia de personal operativo y administrativo</div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 7. Tabbed Facilities & Locations Section -->
+  <section class="facilities-section">
+    <div class="section-header">
+      <span class="section-tag">Infraestructura &amp; Sedes</span>
+      <h2 class="section-title">Instalaciones Operativas</h2>
+    </div>
+
+    <div class="tabs-wrapper">
+      <div class="tabs-header">
+        <button class="tab-btn active" data-tab="tab-bellavista">Sector Industrial Bellavista</button>
+        <button class="tab-btn" data-tab="tab-blocport">Centro Empresarial Bloc Port</button>
+      </div>
+
+      <!-- Tab 1 -->
+      <div id="tab-bellavista" class="tab-content-card active">
+        <div class="tab-info-side">
+          <h3>Taller Principal Bellavista</h3>
+          <p>Ubicado en la Calle 7A Carrera #57-27, Cartagena. Nuestra sede principal cuenta con área de despiece, banco
+            de calibración de bombas inyectoras y puente grúa.</p>
+          <ul class="facility-features">
+            <li>Puente grúa de alta capacidad para bloques de motor pesados</li>
+            <li>Banco de calibración e inspección no destructiva</li>
+            <li>Zona de almacenamiento seguro de repuestos y suministros</li>
+          </ul>
+          <a href="pages/instalaciones.html" class="btn-secondary-ios"
+            style="color: var(--color-navy); border-color: var(--color-navy);">Conocer Instalaciones ➔</a>
+        </div>
+        <div class="tab-media-side">
+          <img src="assets/images/sede-bellavista-taller.png" alt="Taller Principal Bellavista Julmar S.A.S."
+            style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+
+      <!-- Tab 2 -->
+      <div id="tab-blocport" class="tab-content-card">
+        <div class="tab-info-side">
+          <h3>Oficina Comercial Bloc Port</h3>
+          <p>Localizado en el Centro Empresarial Bloc Port, local 41. Punto neurálgico para la atención administrativa,
+            gestión de proyectos marinos y contratos corporativos.</p>
+          <ul class="facility-features">
+            <li>Atención directa para armadores y superintendentes navales</li>
+            <li>Gestión de logística de importación y despacho rápido</li>
+            <li>Salas de reuniones ejecutivas y soporte contractual</li>
+          </ul>
+          <a href="pages/contactanos.html" class="btn-secondary-ios"
+            style="color: var(--color-navy); border-color: var(--color-navy);">Agendar Cita en Oficina ➔</a>
+        </div>
+        <div class="tab-media-side">
+          <img src="assets/images/sede-bloc-port-local-41.png" alt="Oficina Comercial Julmar S.A.S. Bloc Port Local 41"
+            style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Infinite Marquee Section -->
+  <section class="marquee-section">
+    <div class="section-header" style="margin-bottom: 24px;">
+      <span class="section-tag">Confianza de la Industria</span>
+      <h2 class="section-title">Grandes Clientes, Grandes Estándares</h2>
+    </div>
+
+    <div class="marquee-track-container">
+      <div class="marquee-track">
+        <div class="marquee-item"><img src="assets/images/clientes/cotecmar.png" alt="Cotecmar"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/ultratug.png" alt="Ultratug"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/cerrejon.png" alt="Cerrejón"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/puerto-cartagena.png" alt="Puerto de Cartagena">
+        </div>
+        <div class="marquee-item"><img src="assets/images/clientes/impala.png" alt="Impala"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/amawaterways.png" alt="AmaWaterways"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/unibol.png" alt="Unibol"></div>
+
+        <!-- Duplicated for continuous loop -->
+        <div class="marquee-item"><img src="assets/images/clientes/cotecmar.png" alt="Cotecmar"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/ultratug.png" alt="Ultratug"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/cerrejon.png" alt="Cerrejón"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/puerto-cartagena.png" alt="Puerto de Cartagena">
+        </div>
+        <div class="marquee-item"><img src="assets/images/clientes/impala.png" alt="Impala"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/amawaterways.png" alt="AmaWaterways"></div>
+        <div class="marquee-item"><img src="assets/images/clientes/unibol.png" alt="Unibol"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Executive Geographic Location & Contact Section -->
+  <section id="ubicacion-contacto" class="corporate-section"
+    style="padding: 60px 0; background: var(--color-bg-light);">
+    <div class="section-header">
+      <span class="section-tag">Ubicación Geográfica &amp; Cobertura</span>
+      <h2 class="section-title">Encuéntranos en Cartagena</h2>
+      <p class="section-subtitle">Operamos estratégicamente en los principales corredores industriales y portuarios de
+        Colombia.</p>
+    </div>
+
+    <div
+      style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 32px; align-items: start;">
+
+      <!-- Columna Izquierda: 4 Tarjetas Informativas Corporativas -->
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+
+        <!-- Tarjeta 1: Teléfono -->
+        <div
+          style="background: var(--color-white); border-radius: 16px; padding: 22px 24px; box-shadow: 0 8px 24px rgba(17, 44, 63, 0.06); border: 1px solid rgba(17, 44, 63, 0.08); border-left: 5px solid var(--color-gold); display: flex; align-items: center; gap: 18px;">
+          <div
+            style="width: 50px; height: 50px; border-radius: 12px; background: rgba(241, 157, 6, 0.12); display: flex; align-items: center; justify-content: center; color: var(--color-gold); font-size: 1.5rem; flex-shrink: 0;">
+            <span class="material-symbols-outlined" style="font-size: 28px; color: var(--color-gold);">call</span>
+          </div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: var(--color-navy); margin-bottom: 4px; font-weight: 800;">Teléfono
+              &amp; WhatsApp</h4>
+            <p style="font-size: 0.95rem; color: var(--color-dark); font-weight: 600; margin-bottom: 0;">
+              <a href="https://wa.me/573243259535" target="_blank" rel="noopener noreferrer"
+                style="color: var(--color-navy); text-decoration: none;">+57 324 325 9535</a> (Atención Directa)
+            </p>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2: Email -->
+        <div
+          style="background: var(--color-white); border-radius: 16px; padding: 22px 24px; box-shadow: 0 8px 24px rgba(17, 44, 63, 0.06); border: 1px solid rgba(17, 44, 63, 0.08); border-left: 5px solid var(--color-navy); display: flex; align-items: center; gap: 18px;">
+          <div
+            style="width: 50px; height: 50px; border-radius: 12px; background: rgba(17, 44, 63, 0.08); display: flex; align-items: center; justify-content: center; color: var(--color-navy); font-size: 1.5rem; flex-shrink: 0;">
+            <span class="material-symbols-outlined" style="font-size: 28px; color: var(--color-navy);">mail</span>
+          </div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: var(--color-navy); margin-bottom: 4px; font-weight: 800;">Correo
+              Electrónico</h4>
+            <p style="font-size: 0.95rem; color: var(--color-dark); font-weight: 600; margin-bottom: 2px;">
+              <a href="mailto:proyectos@julmarsas.com"
+                style="color: var(--color-navy); text-decoration: none;">proyectos@julmarsas.com</a>
+            </p>
+            <p style="font-size: 0.85rem; color: var(--color-subtext);">Atención Comercial: gerencia@julmarsas.com</p>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3: Ubicación -->
+        <div
+          style="background: var(--color-white); border-radius: 16px; padding: 22px 24px; box-shadow: 0 8px 24px rgba(17, 44, 63, 0.06); border: 1px solid rgba(17, 44, 63, 0.08); border-left: 5px solid var(--color-gold); display: flex; align-items: flex-start; gap: 18px;">
+          <div
+            style="width: 50px; height: 50px; border-radius: 12px; background: rgba(241, 157, 6, 0.12); display: flex; align-items: center; justify-content: center; color: var(--color-gold); font-size: 1.5rem; flex-shrink: 0; margin-top: 2px;">
+            <span class="material-symbols-outlined"
+              style="font-size: 28px; color: var(--color-gold);">location_on</span>
+          </div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: var(--color-navy); margin-bottom: 6px; font-weight: 800;">Sedes
+              Operativas Reales</h4>
+            <div style="margin-bottom: 8px;">
+              <span
+                style="font-size: 0.78rem; background: rgba(17, 44, 63, 0.08); color: var(--color-navy); padding: 2px 8px; border-radius: 10px; font-weight: 700;">SEDE
+                1: TALLER &amp; PLANTA</span>
+              <p style="font-size: 0.88rem; color: var(--color-dark); font-weight: 500; margin-top: 2px;">Sector
+                Industrial Bellavista, Calle 7A #57-27, Cartagena.</p>
+            </div>
+            <div>
+              <span
+                style="font-size: 0.78rem; background: rgba(241, 157, 6, 0.15); color: var(--color-gold); padding: 2px 8px; border-radius: 10px; font-weight: 700;">SEDE
+                2: OFICINA COMERCIAL</span>
+              <p style="font-size: 0.88rem; color: var(--color-dark); font-weight: 500; margin-top: 2px;">Cra. 56
+                #7c-39, Local 41, Centro Empresarial Bloc Port, Bellavista, Cartagena.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4: Horario de Atención -->
+        <div
+          style="background: var(--color-white); border-radius: 16px; padding: 22px 24px; box-shadow: 0 8px 24px rgba(17, 44, 63, 0.06); border: 1px solid rgba(17, 44, 63, 0.08); border-left: 5px solid var(--color-navy); display: flex; align-items: center; gap: 18px;">
+          <div
+            style="width: 50px; height: 50px; border-radius: 12px; background: rgba(17, 44, 63, 0.08); display: flex; align-items: center; justify-content: center; color: var(--color-navy); font-size: 1.5rem; flex-shrink: 0;">
+            <span class="material-symbols-outlined" style="font-size: 28px; color: var(--color-navy);">schedule</span>
+          </div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: var(--color-navy); margin-bottom: 4px; font-weight: 800;">Horario de
+              Atención</h4>
+            <p style="font-size: 0.92rem; color: var(--color-dark); font-weight: 600; margin-bottom: 0;">
+              Lunes a Jueves: 7:00 AM - 4:30 PM &nbsp;|&nbsp; Viernes: 7:00 AM - 4:00 PM
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Columna Derecha: Mapa Interactivo de Google Maps con Estilo Corporativo Julmar -->
+      <div
+        style="background: var(--color-white); border-radius: 20px; padding: 20px; box-shadow: 0 12px 36px rgba(0, 36, 64, 0.08); border: 1px solid rgba(0, 31, 54, 0.12); display: flex; flex-direction: column; gap: 16px;">
+
+        <!-- Botones Selectores de Sede -->
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <button id="map-btn-bellavista" onclick="switchMap('bellavista')"
+            style="flex: 1; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--color-navy); background: var(--color-navy); color: #FFFFFF; font-weight: 700; font-size: 0.88rem; cursor: pointer; transition: all 0.3s; display: flex; align-items: center; justify-content: center; gap: 6px; box-shadow: 0 4px 12px rgba(0, 31, 54, 0.15);">
+            <span class="material-symbols-outlined" style="font-size: 20px;">factory</span> Taller Bellavista
+          </button>
+          <button id="map-btn-blocport" onclick="switchMap('blocport')"
+            style="flex: 1; padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(0, 31, 54, 0.2); background: rgba(0, 31, 54, 0.05); color: var(--color-navy); font-weight: 700; font-size: 0.88rem; cursor: pointer; transition: all 0.3s; display: flex; align-items: center; justify-content: center; gap: 6px;">
+            <span class="material-symbols-outlined" style="font-size: 20px;">corporate_fare</span> Oficina Bloc Port
+          </button>
+        </div>
+
+        <!-- Contenedor del Mapa iFrame -->
+        <div
+          style="position: relative; width: 100%; height: 390px; border-radius: 14px; overflow: hidden; box-shadow: inset 0 0 10px rgba(0,0,0,0.1); border: 1px solid rgba(0, 31, 54, 0.15);">
+
+          <!-- iFrame Sede Bellavista (Ubicación Oficial SERVICIOS Y SUMINISTROS JULMAR SAS Cl. 7A #57-27) -->
+          <iframe id="map-bellavista"
+            src="https://maps.google.com/maps?q=SERVICIOS+Y+SUMINISTROS+JULMAR+SAS+Cl.+7A+%2357-27+Bellavista+Cartagena+Colombia&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="100%" style="border:0; display: block;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <!-- iFrame Sede Bloc Port (Zoom Explicito z=17 en Cra. 56 #7c-39 Local 41 Bloc Port) -->
+          <iframe id="map-blocport"
+            src="https://maps.google.com/maps?q=Cra.+56+%237c-39+Bloc+Port+Cartagena+Colombia&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="100%" style="border:0; display: none;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+        <!-- Pie del Mapa -->
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px;">
+          <span style="font-size: 0.82rem; color: var(--color-subtext); font-weight: 500;">Cartagena de Indias, Bolívar,
+            Colombia</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Script Inline para alternar Sedes en Google Maps -->
+  <script>
+    function switchMap(sede) {
+      const mapBellavista = document.getElementById('map-bellavista');
+      const mapBlocport = document.getElementById('map-blocport');
+      const btnBellavista = document.getElementById('map-btn-bellavista');
+      const btnBlocport = document.getElementById('map-btn-blocport');
+
+      if (sede === 'bellavista') {
+        mapBellavista.style.display = 'block';
+        mapBlocport.style.display = 'none';
+
+        btnBellavista.style.background = 'var(--color-navy)';
+        btnBellavista.style.color = '#FFFFFF';
+        btnBellavista.style.borderColor = 'var(--color-navy)';
+
+        btnBlocport.style.background = 'rgba(0, 31, 54, 0.05)';
+        btnBlocport.style.color = 'var(--color-navy)';
+        btnBlocport.style.borderColor = 'rgba(0, 31, 54, 0.2)';
+      } else {
+        mapBellavista.style.display = 'none';
+        mapBlocport.style.display = 'block';
+
+        btnBlocport.style.background = 'var(--color-navy)';
+        btnBlocport.style.color = '#FFFFFF';
+        btnBlocport.style.borderColor = 'var(--color-navy)';
+
+        btnBellavista.style.background = 'rgba(0, 31, 54, 0.05)';
+        btnBellavista.style.color = 'var(--color-navy)';
+        btnBellavista.style.borderColor = 'rgba(0, 31, 54, 0.2)';
+      }
+    }
+  </script>
+
+  <!-- 10. Floating WhatsApp Direct Button -->
+  <div class="floating-dock">
+    <a href="https://wa.me/573243259535" target="_blank" rel="noopener noreferrer" class="dock-item dock-item-whatsapp"
+      aria-label="WhatsApp Directo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" fill="#FFFFFF">
+        <path
+          d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+      </svg>
+      <span class="dock-tooltip">WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- 11. Modern Footer -->
+  <footer class="site-footer-modern">
+    <div class="footer-content-grid">
+      <div class="footer-col">
+        <img src="assets/images/logo-footer.png" alt="Julmar Logo Footer"
+          style="max-height: 48px; margin-bottom: 16px;">
+        <p>Soluciones integrales de ingeniería naval, mantenimiento de motores diésel de gran tonelaje y suministros
+          industriales en Colombia.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pages/quienes_somos.html">¿Quiénes Somos?</a></li>
+          <li><a href="pages/servicios_suministros.html">Servicios y Suministros</a></li>
+          <li><a href="pages/instalaciones.html">Instalaciones</a></li>
+          <li><a href="pages/contactanos.html">Contáctanos</a></li>
+          <li><a href="assets/docs/politica_tratamiento_datos.pdf" target="_blank">Tratamiento de Datos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sedes Operativas</h4>
+        <p><strong>Taller Bellavista:</strong> Sector Industrial Bellavista Calle 7A Carrera #57-27, Cartagena, Bolívar,
+          Colombia.</p>
+        <br>
+        <p><strong>Oficina Comercial:</strong> Cra. 56 #7c-39, Local 41, Centro Empresarial Bloc Port, Bellavista,
+          Cartagena.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto Directo</h4>
+        <p><strong>Móvil &amp; WhatsApp:</strong> +57 324 325 9535</p>
+        <p><strong>Emails:</strong> proyectos@julmar.com | asesorcomercial@julmarsas.com</p>
+        <p><strong>Instagram:</strong> @julmarsas</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Julmar S.A.S. - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- GSAP + ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- JS Engine -->
+  <script src="js/services-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
